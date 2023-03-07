@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="paia.js"></script>
+</head>
+<body>
+
+<form method="get">
+
+<!-- marca/modelo/kmper/qtcom  -->
+
+<select name="marca" id="marca">
+<option value="chevrolet">chevrolet</option>
+<option value="chevrolet">volkswagen</option>
+<option value="chevrolet">ford</option>
+<option value="chevrolet">hyundai</option>
+<option value="chevrolet">renault</option>
+
+</select>
+<br><br>
+<input type="text" id="model" placeholder="Digite o modelo do seu veiculo">
+<br><br>
+<input type="number" id="km" placeholder="Digite os km percorridos">
+<br><br>
+<input type="number" id="qt" placeholder="Digite a quantidade de combustivel">
+<br><br>
+<input type="submit" value="Calcular" onClick="calcular()">
+
+<h1 id="h1">KM/L</h1>
+
+</form>
+
+</body>
+</html>
